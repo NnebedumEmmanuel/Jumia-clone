@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/code-frame": "^7.22.10",
+    "@babel/compat-data": "^7.22.9",
+    "@babel/core": "^7.22.10",
+    "@babel/generator": "^7.22.10",
     "@material-ui/core": "^4.11.0",
     "@material-ui/icons": "^4.9.1",
     "@testing-library/jest-dom": "^4.2.4",
@@ -14,7 +18,9 @@
     "react-dom": "^16.13.1",
     "react-hooks-lib": "^0.3.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.3"
+    "react-scripts": "^3.4.3",
+    "semver": "^7.5.4",
+    "source-map": "^0.7.4"
   },
   "scripts": {
     "start": "react-scripts start",
