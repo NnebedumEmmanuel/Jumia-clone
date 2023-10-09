@@ -3,14 +3,14 @@ import "../Style/footer.css";
 
 function Footer() {
   return (
-    <div className="footer">
-      <a
-        href="https://github.com/michaelkasingye"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Developer | MIchael Kasingye
-      </a>
+    // <div className="footer">
+    //   <a
+    //     href="https://github.com/michaelkasingye"
+    //     target="_blank"
+    //     rel="noopener noreferrer"
+    //   >
+    //     Developer | Nnebedum Emmanuel
+    //   </a>
       <div className="footer_setions">
         <div className="sections">
           <h6>LET US HELP YOU</h6>
@@ -20,9 +20,9 @@ function Footer() {
         </div>
 
         <div className="sections">
-          <h6>ABOUT JUMIA UGANDA</h6>
+          <h6>ABOUT Eport </h6>
           <p>About us</p>
-          <p>Jumia Careers</p>
+          <p>Eport Careers</p>
           <p>IPR Protection Policy</p>
         </div>
 
@@ -32,8 +32,8 @@ function Footer() {
           <p>Become a Sales Consultant</p>
           <p>Become a Logistics Service Partner</p>
         </div>
+
       </div>
-    </div>
   );
 }
 

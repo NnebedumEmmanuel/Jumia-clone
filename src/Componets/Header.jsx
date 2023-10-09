@@ -10,7 +10,7 @@ import ShoppingCartOutlinedIcon from "@material-ui/icons/ShoppingCartOutlined";
 import { useHistory } from "react-router-dom";
 import { actionTypes } from "../ContextAPI/Reducer";
 import { useStateValue } from "../ContextAPI/StateProvider";
-import { auth } from "../FireBase/Firebase";
+// import { auth } from "C:/Users/HP/Documents/GitHub/Jumia-clone/firebase.json";
 
 function Header() {
   const [{ basket, user }] = useStateValue();
@@ -18,11 +18,11 @@ function Header() {
   const [{}, dispatch] = useStateValue();
   const history = useHistory();
 
-  function login() {
-    if (user) {
-      auth.signOut();
-    }
-  }
+  // function login() {
+  //   if (user) {
+  //     auth.signOut();
+  //   }
+  // }
 
   //SEARCH
   function search(e) {
@@ -39,7 +39,7 @@ function Header() {
   return (
     <nav className="header">
       <Link to="/">
-        <img className="header_logo" src={images.logo} alt="logo" />
+        <h2 className="header_logo"  alt="logo">Eport</h2>
       </Link>
       <form action="" className="header_search">
         <div className="header_search">
@@ -68,7 +68,7 @@ function Header() {
 
       <div className="header_nav">
         <Link to={!user && "/"} className="header_link">
-          <div onClick={login} className="header_option">
+          <div  className="header_option">
             <span className="header_optionLineOne">
               <AccountCircleOutlinedIcon /> {user?.email}
             </span>

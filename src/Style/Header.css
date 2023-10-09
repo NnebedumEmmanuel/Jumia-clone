@@ -18,9 +18,11 @@
   text-decoration: none;
 }
 .header_logo {
-  width: 100px;
+  width: 40px;
   object-fit: contain;
   margin: 10px 40px 10px 40px;
+  color: #e4811c;
+  text-decoration: none;
 }
 .header_search {
   display: flex;

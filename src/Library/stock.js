@@ -27,7 +27,7 @@ import printer from '../images/computing/printer.jpg'
   export const data = [
   {
        "id": 1,
-        "category":"Supermarket",
+        "category":"jewery",
         "product": "cocksoda",
         "image": cocksoda,
         "desc": "Coca-cola Soda, 2 Liters",
@@ -36,7 +36,7 @@ import printer from '../images/computing/printer.jpg'
       },
       {
         "id": 2,
-        "category":"Supermarket",
+        "category":"jewery",
         "product": "Lato Milk",
         "image": LatoMilk,
         "desc": "Lato Milk - 400g",
@@ -45,7 +45,7 @@ import printer from '../images/computing/printer.jpg'
       },
       {
         "id": 3,
-        "category":"Supermarket",
+        "category":"jewery",
         "product": "Soap",
         "image": Soap,
         "desc": "Omo Omo Fast Action Hand Washing Powder - 1kg",
@@ -54,7 +54,7 @@ import printer from '../images/computing/printer.jpg'
       },
       {
         "id": 4,
-        "category":"Supermarket",
+        "category":"jewery",
         "product": "Pasta",
         "image": pasta,
         "desc": "Golda Penne Rigate - 500g",
@@ -63,7 +63,7 @@ import printer from '../images/computing/printer.jpg'
       },
       {
         "id": 5,
-        "category":"Supermarket",
+        "category":"jewery",
         "product": "Sugar",
         "image": sugar,
         "desc": "Kinyara Sugar Kinyara Irresistibly Sweet Sugar - 1Kg",
@@ -75,7 +75,7 @@ import printer from '../images/computing/printer.jpg'
       
       {
         id: 6,
-         "category":"Phones and Tablets",
+         "category":"jewery",
          "product": "Earphones ",
          "image": earphones,
          "desc": "Generic Bluetooth Wireless Earphones With Charging Case",
@@ -102,7 +102,7 @@ import printer from '../images/computing/printer.jpg'
        },
        {
          id: 8,
-         "category":"Phones and Tablets",
+         "category":"jewery",
          "product": "Techno",
          "image": techno,
          "desc": "Tecno Pop 4 - 6.0 2GB RAM 5000mAh - Green",

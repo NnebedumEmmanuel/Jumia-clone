@@ -13,10 +13,10 @@ function Intro() {
   return (
     <div className="intro">
       <div className="categories">
-        <Link to="/supermarket">
+        <Link to="/jewery">
           <div className="category_items">
             <StorefrontOutlinedIcon />
-            <span>Supermarket</span>
+            <span>jewery</span>
           </div>
         </Link>
         <Link to="/phoneTablets">

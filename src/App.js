@@ -9,33 +9,33 @@ import Login from "./Componets/Login";
 import Footer from "./Componets/Footer";
 import Categories from "./Componets/Categories";
 import { useStateValue } from "../src/ContextAPI/StateProvider";
-import { auth } from "./FireBase/Firebase";
+// import { auth } from "./Componets/";
 import { Unsubscribe } from "@material-ui/icons";
 
 function App() {
   const [{ user }, dispatch] = useStateValue();
 
-  //code to run on a given condition
-  useEffect(() => {
-    auth.onAuthStateChanged((authUser) => {
-      if (authUser) {
-        //loggrd in
-        dispatch({
-          type: "SET_USER",
-          user: authUser,
-        });
-      } else {
-        //logged out
-        dispatch({
-          type: "SET_USER",
-          user: null,
-        });
-      }
-    });
-    return () => {
-      Unsubscribe();
-    };
-  }, []);
+  // // code to run on a given condition
+  // useEffect(() => {
+  //   auth.onAuthStateChanged((authUser) => {
+  //     if (authUser) {
+  //       //loggrd in
+  //       dispatch({
+  //         type: "SET_USER",
+  //         user: authUser,
+  //       });
+  //     } else {
+  //       //logged out
+  //       dispatch({
+  //         type: "SET_USER",
+  //         user: null,
+  //       });
+  //     }
+  //   });
+  //   return () => {
+  //     Unsubscribe();
+  //   };
+  // }, []);
   return (
     <Router>
       <div className="App">
@@ -64,9 +64,9 @@ function App() {
             <Footer />
           </Route>
 
-          <Route path="/supermarket">
+          <Route path="/jewery">
             <Header />
-            <Categories section="Supermarket" />
+            <Categories section="jewery" />
             <Footer />
           </Route>
 

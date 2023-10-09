@@ -12,10 +12,10 @@ function Home() {
       <Intro />
       <JumiaBusinesses />
 
-      <Heading heading="Supermarket" className="heading" />
+      <Heading heading="jewery" className="heading" />
       <div className="home_row">
         {data
-          .filter((filrterdData) => filrterdData.category === "Supermarket")
+          .filter((filrterdData) => filrterdData.category === "jewery")
           .slice(0, 5)
           .map((item) => (
             <Product
