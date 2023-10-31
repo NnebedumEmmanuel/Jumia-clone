@@ -7,7 +7,7 @@ import Checkout from "./Componets/Checkout";
 import Search from "./Componets/Search";
 import Login from "./Componets/Login";
 import Footer from "./Componets/Footer";
-import Categories from "./Componets/Categories";
+import Categories from "./Componets/Cateories";
 import { useStateValue } from "../src/ContextAPI/StateProvider";
 // import { auth } from "./Componets/";
 import { Unsubscribe } from "@material-ui/icons";
